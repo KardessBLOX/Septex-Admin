@@ -1,0 +1,398 @@
+--[[
+KARDESS x SEPTEX
+OBFUSCATED BY KARDESS
+
+]] --
+
+local v0 = tonumber
+local v1 = string.byte
+local v2 = string.char
+local v3 = string.sub
+local v4 = string.gsub
+local v5 = string.rep
+local v6 = table.concat
+local v7 = table.insert
+local v8 = math.ldexp
+local v9 = getfenv or function()
+        return _ENV
+    end
+local v10 = setmetatable
+local v11 = pcall
+local v12 = select
+local v13 = unpack or table.unpack
+local v14 = tonumber
+local function v15(v16, v17, ...)
+    local v18 = 1
+    local v19
+    v16 =
+        v4(
+        v3(v16, 5),
+        "..",
+        function(v30)
+            if (v1(v30, 2) == 79) then
+                v19 = v0(v3(v30, 1, 1))
+                return ""
+            else
+                local v82 = v2(v0(v30, 16))
+                if v19 then
+                    local v88 = 0
+                    local v89
+                    while true do
+                        if (v88 == 1) then
+                            return v89
+                        end
+                        if (v88 == 0) then
+                            v89 = v5(v82, v19)
+                            v19 = nil
+                            v88 = 1
+                        end
+                    end
+                else
+                    return v82
+                end
+            end
+        end
+    )
+    local function v20(v31, v32, v33)
+        if v33 then
+            local v83 =
+                (v31 / (((1275 - (226 + 1044)) - 3) ^ (v32 - (1 + 0)))) %
+                ((5 - (12 - 9)) ^ (((v33 - (878 - (282 + 595))) - (v32 - (1 - 0))) + (2 - 1)))
+            return v83 - (v83 % (620 - (555 + 64)))
+        else
+            local v84 = 2 ^ (v32 - (932 - (857 + 74)))
+            return (((v31 % (v84 + v84)) >= v84) and 1) or (568 - (367 + 201))
+        end
+    end
+    local function v21()
+        local v34 = v1(v16, v18, v18)
+        v18 = v18 + 1
+        return v34
+    end
+    local function v22()
+        local v35, v36 = v1(v16, v18, v18 + (119 - (32 + 85)))
+        v18 = v18 + 2 + 0
+        return (v36 * 256) + v35
+    end
+    local function v23()
+        local v37 = 0 + 0
+        local v38
+        local v39
+        local v40
+        local v41
+        while true do
+            if (v37 == (958 - ((1844 - (802 + 150)) + 65))) then
+                return (v41 * (40022563 - 23245347)) + (v40 * (121138 - 55602)) + (v39 * (188 + (182 - 114))) + v38
+            end
+            if (v37 == (0 - 0)) then
+                v38, v39, v40, v41 = v1(v16, v18, v18 + 3 + 0)
+                v18 = v18 + 4
+                v37 = (636 - 285) - (87 + 263)
+            end
+        end
+    end
+    local function v24()
+        local v42 = v23()
+        local v43 = v23()
+        local v44 = 1 + 0
+        local v45 = (v20(v43, 998 - (915 + 82), (1542 - (998 + 488)) - 36) * ((1 + 1 + 0) ^ (41 - 9))) + v42
+        local v46 = v20(v43, 1208 - (1069 + 118), 70 - 39)
+        local v47 = ((v20(v43, 69 - 37) == (1 + 0)) and -1) or (1 - 0)
+        if (v46 == 0) then
+            if (v45 == (0 + 0)) then
+                return v47 * 0
+            else
+                local v90 = 791 - (368 + 423)
+                while true do
+                    if ((0 - (0 + 0)) == v90) then
+                        v46 = 19 - (10 + 8)
+                        v44 = 0 - (772 - (201 + 571))
+                        break
+                    end
+                end
+            end
+        elseif (v46 == (2489 - (416 + 26))) then
+            return ((v45 == 0) and (v47 * ((3 - 2) / (0 + 0)))) or (v47 * NaN)
+        end
+        return v8(v47, v46 - ((2947 - (116 + 1022)) - 786)) *
+            (v44 + (v45 / ((440 - (145 + 293)) ^ (482 - ((183 - 139) + 386)))))
+    end
+    local function v25(v48)
+        local v49
+        if not v48 then
+            v48 = v23()
+            if (v48 == 0) then
+                return ""
+            end
+        end
+        v49 = v3(v16, v18, (v18 + v48) - (1 + 0))
+        v18 = v18 + v48
+        local v50 = {}
+        for v65 = 3 - 2, #v49 do
+            v50[v65] = v2(v1(v3(v49, v65, v65)))
+        end
+        return v6(v50)
+    end
+    local v26 = v23
+    local function v27(...)
+        return {...}, v12("#", ...)
+    end
+    local function v28()
+        local v51 = (function()
+            return 561 - (79 + 482)
+        end)()
+        local v52 = (function()
+            return
+        end)()
+        local v53 = (function()
+            return
+        end)()
+        local v54 = (function()
+            return
+        end)()
+        local v55 = (function()
+            return
+        end)()
+        local v56 = (function()
+            return
+        end)()
+        local v57 = (function()
+            return
+        end)()
+        local v58 = (function()
+            return
+        end)()
+        while true do
+            local v67 = (function()
+                return 0
+            end)()
+            while true do
+                if (v67 ~= (1 - 0)) then
+                else
+                    if (v51 ~= 1) then
+                    else
+                        v55 = (function()
+                            return {}
+                        end)()
+                        v56 = (function()
+                            return {v53, v54, nil, v55}
+                        end)()
+                        v57 = (function()
+                            return v23()
+                        end)()
+                        v51 = (function()
+                            return 2
+                        end)()
+                    end
+                    if (v51 ~= 2) then
+                    else
+                        local v95 = (function()
+                            return 0 - 0
+                        end)()
+                        local v96 = (function()
+                            return
+                        end)()
+                        while true do
+                            if (v95 == (285 - (134 + 151))) then
+                                v96 = (function()
+                                    return 0
+                                end)()
+                                while true do
+                                    if (v96 == 1) then
+                                        v56[#"xxx"] = (function()
+                                            return v21()
+                                        end)()
+                                        v51 = (function()
+                                            return 1668 - (970 + 695)
+                                        end)()
+                                        break
+                                    end
+                                    if (v96 ~= (0 - 0)) then
+                                    else
+                                        v58 = (function()
+                                            return {}
+                                        end)()
+                                        for v162 = #"!", v57 do
+                                            local v163 = (function()
+                                                return 0
+                                            end)()
+                                            local v164 = (function()
+                                                return
+                                            end)()
+                                            local v165 = (function()
+                                                return
+                                            end)()
+                                            local v166 = (function()
+                                                return
+                                            end)()
+                                            while true do
+                                                if (v163 ~= (1991 - (582 + 1408))) then
+                                                else
+                                                    v166 = (function()
+                                                        return nil
+                                                    end)()
+                                                    while true do
+                                                        if (v164 ~= (3 - 2)) then
+                                                        else
+                                                            if (v165 == #"[") then
+                                                                v166 = (function()
+                                                                    return v21() ~= (0 - 0)
+                                                                end)()
+                                                            elseif (v165 == 2) then
+                                                                v166 = (function()
+                                                                    return v24()
+                                                                end)()
+                                                            elseif (v165 == #"91(") then
+                                                                v166 = (function()
+                                                                    return v25()
+                                                                end)()
+                                                            end
+                                                            v58[v162] = (function()
+                                                                return v166
+                                                            end)()
+                                                            break
+                                                        end
+                                                        if (v164 ~= (0 - 0)) then
+                                                        else
+                                                            v165 = (function()
+                                                                return v21()
+                                                            end)()
+                                                            v166 = (function()
+                                                                return nil
+                                                            end)()
+                                                            v164 = (function()
+                                                                return 1
+                                                            end)()
+                                                        end
+                                                    end
+                                                    break
+                                                end
+                                                if (v163 ~= (1824 - (1195 + 629))) then
+                                                else
+                                                    local v182 = (function()
+                                                        return 0
+                                                    end)()
+                                                    while true do
+                                                        if ((0 - 0) ~= v182) then
+                                                        else
+                                                            v164 = (function()
+                                                                return 241 - (187 + 54)
+                                                            end)()
+                                                            v165 = (function()
+                                                                return nil
+                                                            end)()
+                                                            v182 = (function()
+                                                                return 781 - (162 + 618)
+                                                            end)()
+                                                        end
+                                                        if (v182 ~= 1) then
+                                                        else
+                                                            v163 = (function()
+                                                                return 1
+                                                            end)()
+                                                            break
+                                                        end
+                                                    end
+                                                end
+                                            end
+                                        end
+                                        v96 = (function()
+                                            return 1
+                                        end)()
+                                    end
+                                end
+                                break
+                            end
+                        end
+                    end
+                    break
+                end
+                if (v67 ~= (0 + 0)) then
+                else
+                    if (v51 == 3) then
+                        for v98 = #"|", v23() do
+                            local v99 = (function()
+                                return v21()
+                            end)()
+                            if (v20(v99, #"\\", #"\\") == 0) then
+                                local v101 = (function()
+                                    return 0 + 0
+                                end)()
+                                local v102 = (function()
+                                    return
+                                end)()
+                                local v103 = (function()
+                                    return
+                                end)()
+                                local v104 = (function()
+                                    return
+                                end)()
+                                local v105 = (function()
+                                    return
+                                end)()
+                                while true do
+                                    if (v101 == 2) then
+                                        while true do
+                                            if (v102 ~= #"!") then
+                                            else
+                                                local v170 = (function()
+                                                    return 0
+                                                end)()
+                                                local v171 = (function()
+                                                    return
+                                                end)()
+                                                while true do
+                                                    if (v170 == (0 - 0)) then
+                                                        v171 = (function()
+                                                            return 0 - 0
+                                                        end)()
+                                                        while true do
+                                                            if (0 == v171) then
+                                                                v105 = (function()
+                                                                    return {v22(), v22(), nil, nil}
+                                                                end)()
+                                                                if (v103 == (1636 - (1373 + 263))) then
+                                                                    local v188 = (function()
+                                                                        return 0
+                                                                    end)()
+                                                                    while true do
+                                                                        if (v188 ~= 0) then
+                                                                        else
+                                                                            v105[#"asd"] = (function()
+                                                                                return v22()
+                                                                            end)()
+                                                                            v105[#".com"] = (function()
+                                                                                return v22()
+                                                                            end)()
+                                                                            break
+                                                                        end
+                                                                    end
+                                                                elseif (v103 == #"~") then
+                                                                    v105[#"asd"] = (function()
+                                                                        return v23()
+                                                                    end)()
+                                                                elseif (v103 == 2) then
+                                                                    v105[#"xnx"] = (function()
+                                                                        return v23() - ((1002 - (451 + 549)) ^ 16)
+                                                                    end)()
+                                                                elseif (v103 == #"-19") then
+                                                                    local v193 = (function()
+                                                                        return 0 + 0
+                                                                    end)()
+                                                                    local v194 = (function()
+                                                                        return
+                                                                    end)()
+                                                                    while true do
+                                                                        if (v193 == 0) then
+                                                                            v194 = (function()
+                                                                                return 0
+                                                                            end)()
+                                                                            while true do
+                                                                                if (v194 ~= (0 - 0)) then
+                                                                                else
+                                                                                    v105[#"asd"] = (function()
+                                                                                        return v23() - (2 ^ (26 - 10))
+                                                                                    end)()
+                                                                                    v105[#"asd1"] = (function()
+                                                                                        return v22()
+                                
